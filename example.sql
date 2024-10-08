@@ -1,7 +1,7 @@
 --
 -- Table structure for table `author`
 --
- 
+--###### DB : nodejs
  
 CREATE TABLE `author` (
   `id` int(11) NOT NULL AUTO_INCREMENT,

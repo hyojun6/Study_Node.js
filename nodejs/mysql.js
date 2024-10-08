@@ -5,7 +5,7 @@ var connection = mysql.createConnection({
   password : 'q1w2e3',
   database : 'nodejs'
 });
- 
+
 connection.connect();
  
 connection.query('SELECT * from topic', function (error, results, fields) {
